@@ -78,6 +78,7 @@ padding: 12px 20px 12px 20px;
     border-radius: 16px;
     background: rgba(13, 19, 33, 0.02);
     gap: 10px;
+    margin: 0 auto;
 }
 
 .reason-title {
@@ -119,10 +120,9 @@ font-weight: 400;
 text-align: left;
 }
 /* inspiration section styles */
-/* .inspiration{
-    width: 1140px;
-height: 775px;
-} */
+.inspiration{
+    margin: 0 auto;
+}
 .inspiration-title{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
@@ -144,4 +144,58 @@ padding-bottom: 28px;
 border: 1px solid rgba(13, 19, 33, 0.2);
 border-radius: 16px;
 
+}
+
+/* current-target section styles */
+.current-target{
+    margin: 0 auto;
+}
+.current-target-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+text-align: center;
+}
+.current-target-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+opacity: 0.7;
+text-align: center;
+}
+.target-items{
+    max-width: 1150px;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 20px;
+    
+}
+.target-item-first{
+    border-radius: 16px;
+background-color:rgba(255, 76, 30, 0.05);
+padding: 40px;
+margin: 0px 24px;
+}
+.target-item-second{
+    border-radius: 16px;
+    padding: 40px;
+background: rgba(0, 76, 232, 0.05);
+margin: 0 24px;
+}
+.target-item-third{
+    border-radius: 16px;
+    padding: 40px;
+background: rgba(255, 223, 0, 0.05);
+margin: 0 24px;
+}
+a{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+text-align: left;
+text-decoration-line: underline;
 }
