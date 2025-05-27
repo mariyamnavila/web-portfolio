@@ -263,6 +263,10 @@ letter-spacing: 0%;
 text-align: center;
 opacity: 0.7;
 }
+.nxt-target-img{
+    padding: 24px;
+    width: 143.3px;
+}
 .nxt-target-item{
     display: flex;
     box-sizing: border-box;
@@ -353,4 +357,24 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
+}
+/* footer section styles */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+}
+.footer-title{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+.contact{
+    margin-top: 20px;
 }
