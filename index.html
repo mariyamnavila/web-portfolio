@@ -24,7 +24,7 @@
             <h3 class="reason-title">Why Web Development??</h3>
             <p class="reason-description">It is important.Because,Web development is the process of creating, building, and maintaining websites and web applications.</p>
             <div class="reason-items">
-                <div class="reason-item">
+                <div class="reason-item-dash">
                     <div class="reason-item-first">
                     <p class="item-title">I will Do Coding and Change The World</p>
                     <p class="item-description">It's a way of solving problems that can transform the way we approach challenges in our everyday life.</p>
@@ -40,7 +40,7 @@
                     <button class="btn-secondary">Learn More</button>
                     </div>
                 </div>
-                <div class="reason-item">
+                <div class="reason-item-dash">
                     <div class="reason-item-third">
                     <p class="item-title">I will Do Coding and Change The World</p>
                     <p class="item-description">It's a way of solving problems that can transform the way we approach challenges in our everyday life.</p>
@@ -55,7 +55,7 @@
             <h3 class="inspiration-title">My inspiration</h3>
             <p class="inspiration-description">Programming hero is my coding inspiration.From programming hero , I can learn coding better.</p>
             <div class="video">
-                <iframe width="1140" height="614" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=5Co7Qs7hhiaMqJut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe class="video-iframe" width="1140" height="614" src="https://www.youtube.com/embed/DGHn2uOAVCE?si=5Co7Qs7hhiaMqJut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
         </section>
         <section class="current-target">
@@ -63,22 +63,32 @@
             <p class="current-target-description">My current target is to learn HTMl, CSS, JavaScript from Programming Hero.</p>
             <div class="target-items">
                 <div class="target-item-first">
-                    <img src="assets/html.png" alt="">
-                    <h3 class="target-item-title">HTML</h3>
+                    <img class="target-item-img" src="assets/html.png" alt="">
+                    <div class="target-item">
+                        <h3 class="target-item-title">HTML</h3>
                     <p class="target-item-description">HTML is hypertext markup language</p>
-                    <a href="">Learn More</a>
+                    </div>
+                    <div class="link"><a href="">Learn More</a></div>
+                    
                 </div>
                 <div class="target-item-second">
-                    <img src="assets/css.png" alt="">
-                    <h3 class="target-item-title">CSS</h3>
-                    <p class="target-item-description">CSS is cascading style sheet</p>
-                    <a href="">Learn More</a>
+                    <img class="target-item-img" src="assets/css.png" alt="">
+                    <div class="target-item">
+                        <h3 class="target-item-title">CSS</h3>
+                        <p class="target-item-description">CSS is cascading style sheet</p>
+                    </div>
+                    <div class="link">
+                        <a href="">Learn More</a>
+                    </div>
+                    
                 </div>
                 <div class="target-item-third">
-                    <img src="assets/js.png" alt="">
-                    <h3 class="target-item-title">JavaScript</h3>
+                    <img class="target-item-img"  src="assets/js.png" alt="">
+                    <div class="target-item">
+                        <h3 class="target-item-title">JavaScript</h3>
                     <p class="target-item-description">JavaScript is a versatile, high-level, and dynamic programming language .</p>
-                    <a href="">Learn More</a>
+                    </div>
+                    <div class="link"><a href="">Learn More</a></div>
                 </div>
             </div>
         </section>
@@ -113,10 +123,13 @@
             </div>
         </section>
         <section class="support">
+            <!-- <img src="assets/handshake.jpg" class="support-img" alt=""> -->
             <h3 class="support-title">I need Support</h3>
             <p class="support-description">Support me by suggesting any thing</p>
-            <input type="text" placeholder="Suggest me any feedback for me">
+            <div class="support-section">
+                <input type="text" placeholder="Suggest me any feedback for me">
             <button class="btn-third">Submit</button>
+            </div>
         </section>
     </main>
     <footer id="myfooter" >
